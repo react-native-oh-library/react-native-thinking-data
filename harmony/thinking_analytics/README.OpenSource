@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-thinking-data",
+        "License": "Apache License 2.0",
+        "License File": "https://github.com/ThinkingDataAnalytics/react-native-sdk",
+        "Version Number": "3.2.1",
+        "Owner": "Thinking Data Inc.",
+        "Upstream URL": "https://github.com/ThinkingDataAnalytics/react-native-sdk",
+        "Description": "HarmonyOS adaptation of the ThinkingData (TE) React Native analytics SDK."
+    }
+]

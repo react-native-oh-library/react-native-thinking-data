@@ -1,0 +1,20 @@
+{
+  "name": "@react-native-ohos/react-native-thinking-data",
+  "version": "3.2.2",
+  "description": "HarmonyOS platform implementation of react-native-thinking-data (ThinkingData RN SDK).",
+  "main": "index.ets",
+  "author": "ThinkingData",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "~0.84.3",
+    "@thinkingdata/analytics": "^2.0.0"
+  },
+  "metadata": {
+    "sourceRoots": [
+      "./src/main"
+    ]
+  },
+  "compatibleSdkVersion": 12,
+  "compatibleSdkType": "HarmonyOS",
+  "obfuscated": false
+}

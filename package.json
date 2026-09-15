@@ -1,0 +1,68 @@
+{
+  "name": "@react-native-ohos/react-native-thinking-data",
+  "version": "3.2.2",
+  "description": "HarmonyOS adaptation of react-native-thinking-data (ThinkingData RN SDK).",
+  "main": "TDAnalytics.js",
+  "files": [
+    "/harmony",
+    "index.js",
+    "TDAnalytics.js",
+    "TDAnalytics.d.ts",
+    "ThinkingAnalyticsAPI.js",
+    "ThinkingDataRNHook.js",
+    "/jest",
+    "README.md",
+    "README_en.md",
+    "README.OpenSource",
+    "CHANGELOG.md",
+    "LICENSE",
+    "!**/build"
+  ],
+  "keywords": [
+    "react-native",
+    "harmony",
+    "ohos",
+    "openharmony",
+    "rnoh",
+    "thinkingdata",
+    "analytics"
+  ],
+  "scripts": {
+    "test": "jest --config jest/jest.config.js",
+    "test:coverage": "jest --config jest/jest.config.js --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-typescript": "^7.25.0",
+    "@types/jest": "^29.5.13",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.29.7"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "@react-native-async-storage/async-storage": "*"
+  },
+  "harmony": {
+    "alias": "react-native-thinking-data",
+    "autolinking": {
+      "etsPackageClassName": "RNThinkingDataPackage",
+      "cppPackageClassName": "RNThinkingDataPackage",
+      "cmakeLibraryTargetName": "rnoh_thinking_data",
+      "ohPackageName": "@react-native-ohos/react-native-thinking-data"
+    }
+  },
+  "author": "ThinkingData",
+  "license": "Apache-2.0",
+  "homepage": "https://gitcode.com/CPF-RN/rntpc_react-native-thinking-data#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitcode.com/CPF-RN/rntpc_react-native-thinking-data.git"
+  }
+}

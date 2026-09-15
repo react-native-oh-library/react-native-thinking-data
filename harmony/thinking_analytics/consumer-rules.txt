@@ -1,0 +1,3 @@
+# consumer obfuscation rules for apps referencing this HAR
+-keep-property-name
+RNThinkingAnalyticsModule

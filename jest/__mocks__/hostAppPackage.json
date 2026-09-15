@@ -1,0 +1,7 @@
+{
+  "name": "host-app",
+  "thinkingData": {
+    "ignoreScreen": false,
+    "ignoreClick": false
+  }
+}

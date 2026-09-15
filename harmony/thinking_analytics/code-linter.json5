@@ -1,0 +1,15 @@
+{
+  "files": ["**/*.ets", "**/*.ts"],
+  "ignore": ["**/node_modules/**/*", "**/oh_modules/**/*", "**/build/**/*"],
+  "ruleSet": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@performance/recommended",
+    "plugin:@correctness/recommended",
+    "plugin:@security/recommended",
+    "plugin:@hw-stylistic/recommended",
+    "plugin:@cross-device-app-dev/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "error"
+  }
+}

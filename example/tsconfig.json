@@ -1,0 +1,19 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "paths": {
+      "react-native": [
+        "./node_modules/@react-native-oh/react-native-harmony"
+      ],
+      "react-native-thinking-data": [
+        "./node_modules/@react-native-ohos/react-native-thinking-data"
+      ],
+      "@react-native-ohos/react-native-thinking-data": [
+        "./node_modules/@react-native-ohos/react-native-thinking-data"
+      ]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["harmony", "**/node_modules"]
+}

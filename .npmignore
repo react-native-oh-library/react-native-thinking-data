@@ -1,0 +1,15 @@
+coverage/
+oh_modules/
+.hvigor/
+.ohos/
+**/build/
+harmony/**/oh_modules/
+harmony/**/build/
+harmony/**/.hvigor/
+**/*.map
+.idea/
+*.iml
+local.properties
+*.tgz
+example/*.tgz
+example/**/rawfile/bundle.harmony.js
